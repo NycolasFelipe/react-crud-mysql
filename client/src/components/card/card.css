@@ -1,0 +1,41 @@
+.card-container {
+  width: 220px;
+  border: 3px solid #2e5ea0;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+.card-id {
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  padding: 3px;
+  font-family: monospace;
+}
+
+.card-title {
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.card-category {
+  font-size: 1rem;
+}
+
+.card-price {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.card-container:hover {
+  background-color: #494949;
+}

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register-container {
+  padding: 10px 20px;
+  padding-bottom: 15px;
+  width: max-content;
+  height: max-content;
+  margin-top: 20px;
+  border: 3px solid #dddddd;
+  border-radius: 5px;
+}
+
+.register-title {
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: fantasy;
+}
+
+.register-input {
+  display: block;
+  margin: 10px auto;
+  padding: 7px 2px;
+  border-radius: 5px;
+  width: 95%;
+  border: none;
+}
+
+.register-button {
+  padding: 2px 5px;
+  color: #2e5ea0;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.register-button:hover { 
+  cursor: pointer;
+  color: #3a72c0;
+  border: 2px solid #dce7dd;
+}
+
+.register-button:active {
+  transform: scale(1.05);
+}
